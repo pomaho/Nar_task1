@@ -1,2 +1,6 @@
 node_modules
 *.key
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/Nar_task1.iml
+/.idea/vcs.xml
