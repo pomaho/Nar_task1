@@ -1,8 +1,8 @@
 {
-  "name": "cosmjs-sandbox",
+  "name": "grnd-nar",
   "version": "1.0.0",
   "description": "Experiment with simple CosmJS concepts.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "example": "ts-node example.ts",
     "experiment": "ts-node experiment.ts",
