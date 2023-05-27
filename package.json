@@ -1,21 +1,16 @@
 {
-  "name": "cosmjs-sandbox",
+  "name": "grnf-nar",
   "version": "1.0.0",
-  "description": "Experiment with simple CosmJS concepts.",
-  "main": "index.js",
+  "description": "Nar command's CLI for work with BNB Chain Greenfield",
+  "main": "bin/index.js",
+  "bin": "bin/index.js",
   "scripts": {
-    "example": "ts-node example.ts",
-    "experiment": "ts-node experiment.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "B9lab",
-  "license": "ISC",
+  },  "author": "Nar Command. Decentrathon",
+  "license": "MIT",
   "devDependencies": {
-    "@bnb-chain/greenfield-chain-sdk": "^0.2.0",
-    "ts-node": "10.7.0"
-  },
-  "dependencies": {
-    "@bnb-chain/greenfield-chain-sdk": "^0.2.0",
-    "@cosmjs/stargate": "0.28.2"
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
   }
 }
